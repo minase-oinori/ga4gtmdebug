@@ -10,6 +10,13 @@
     <a href="http://localhost:8888/wordpress/form.html" onclick="trEventClick(this,'申請フォーム','申請フォーム1','');">申請フォーム1</a>
     <input class="form-link" type="button" value="申請フォーム2" onclick="trEventClick(this,'申請フォーム','申請フォーム2','');">
     <button>申請フォーム3</button>
+    <script>
+    var script = document.createElement('script');
+    script.async = 1;
+    script.src = 'https://lite.virtusize.jp/integration/kddi/tag.js';
+    script.id = 'vs-integration';
+    document.head.appendChild(script);
+    </script>
     <!-- Google Tag Manager -->
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5HWRQ3Z9"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
